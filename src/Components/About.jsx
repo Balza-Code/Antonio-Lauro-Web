@@ -25,7 +25,7 @@ export const About = () => {
             </p>
             </div>
             <div className="intro__img">
-              <img src="/ambicion.png" alt="" />
+              <img src="../ambicion.png" alt="" />
             </div>
           </article>
 

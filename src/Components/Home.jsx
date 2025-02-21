@@ -24,7 +24,7 @@ export const Home = () => {
                 Donde la educación y el crecimiento personal van de la mano.
               </span>
             </div>
-            <img className="hero__img" src="../src/assets\imgs/1.webp" alt="" />
+            <img className="hero__img" src="./1.webp" alt="" />
           </div>
         </div>
       </section>
