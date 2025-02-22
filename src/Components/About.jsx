@@ -6,7 +6,7 @@ export const About = () => {
       <section className="about-us">
         <div className="container">
           <div className="about-us__img">
-            <img src="/escuela.jpg" alt="" />
+            <img src="./escuela.jpg" alt="" />
           </div>
 
 
@@ -25,7 +25,7 @@ export const About = () => {
             </p>
             </div>
             <div className="intro__img">
-              <img src="../ambicion.png" alt="" />
+              <img src="./ambicion.png" alt="" />
             </div>
           </article>
 
@@ -68,7 +68,7 @@ export const About = () => {
 
           <div className="final__container">
             <div className="final__img">
-              <img src="/unidad.avif" alt="" />
+              <img src="./unidad.avif" alt="" />
             </div>
             <article className="about-us__final">
               <h2>Una Familia Educativa</h2>

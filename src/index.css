@@ -703,6 +703,11 @@ button:focus-visible {
   }
 }
 
+.email{
+  text-align: center;
+  font-size: 5rem;
+}
+
 /* About-Us */
 
 .about-us {

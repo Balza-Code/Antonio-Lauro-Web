@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { Menu } from "../../assets/icons/Menu";
+import { Menu } from "../icons/Menu";
+
 
 export const HamburguerIcon = () => {
   const [isOpen, setIsOpen] = useState(false);

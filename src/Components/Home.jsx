@@ -1,9 +1,6 @@
 import React from "react";
-import { Book } from "../assets/icons/Book";
-import { Students } from "../assets/icons/students";
-import { Teaching } from "../assets/icons/teaching";
 
-import happy from "../assets/imgs/3.webp";
+
 
 export const Home = () => {
   return (
@@ -60,7 +57,7 @@ export const Home = () => {
           <div className="learn__container">
             <div className="learn__content">
               <div className="learn__img">
-                <Book />
+                <img src="./book.png" alt="" />
               </div>
               <p className="learn__text">
                 <h3>Pensamiento Innovador</h3>
@@ -71,7 +68,7 @@ export const Home = () => {
 
             <div className="learn__content">
               <div className="learn__img">
-                <Students />
+                <img src="./students.png" alt="" />
               </div>
               <p className="learn__text">
                 <h3>Educación Integral</h3>
@@ -82,7 +79,7 @@ export const Home = () => {
 
             <div className="learn__content">
               <div className="learn__img">
-                <Teaching />
+                <img src="./teaching.png" alt="" />
               </div>
               <p className="learn__text">
                 <h3>Atención Personalizada</h3>
@@ -99,7 +96,7 @@ export const Home = () => {
           <div className="draw5"></div>
           <div className="about__content">
             <div className="about__img">
-              <img src={happy} alt="" />
+              <img src='./3.webp' alt="" />
             </div>
             <div className="about__text">
               <h3>
@@ -147,7 +144,7 @@ export const Home = () => {
               </h2>
               <img
                 className="contact__img"
-                src="../src/assets\imgs/2.webp"
+                src="./2.webp"
                 alt=""
               />
             </div>
