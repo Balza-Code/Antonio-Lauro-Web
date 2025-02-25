@@ -25,9 +25,7 @@ export const HamburguerIcon = () => {
           <NavLink className="navbar__link--mobile" to="/News">
             Noticias
           </NavLink>
-          <NavLink className="navbar__link--mobile" to="/Contact">
-            Contacto
-          </NavLink>
+          
         
       </nav>
     </div>

@@ -21,7 +21,7 @@ export const Home = () => {
                 Donde la educación y el crecimiento personal van de la mano.
               </span>
             </div>
-            <img className="hero__img" src="Antonio-Lauro-Web/1.webp" alt="" />
+            <img className="hero__img" src="./1.webp" alt="" />
           </div>
         </div>
       </section>
@@ -57,7 +57,7 @@ export const Home = () => {
           <div className="learn__container">
             <div className="learn__content">
               <div className="learn__img">
-                <img src="Antonio-Lauro-Web/book.png" alt="" />
+                <img src="./book.png" alt="" />
               </div>
               <p className="learn__text">
                 <h3>Pensamiento Innovador</h3>
@@ -68,7 +68,7 @@ export const Home = () => {
 
             <div className="learn__content">
               <div className="learn__img">
-                <img src="Antonio-Lauro-Web/students.png" alt="" />
+                <img src="./students.png" alt="" />
               </div>
               <p className="learn__text">
                 <h3>Educación Integral</h3>
@@ -79,7 +79,7 @@ export const Home = () => {
 
             <div className="learn__content">
               <div className="learn__img">
-                <img src="Antonio-Lauro-Web/teaching.png" alt="" />
+                <img src="./teaching.png" alt="" />
               </div>
               <p className="learn__text">
                 <h3>Atención Personalizada</h3>
@@ -96,7 +96,7 @@ export const Home = () => {
           <div className="draw5"></div>
           <div className="about__content">
             <div className="about__img">
-              <img src='Antonio-Lauro-Web/3.webp' alt="" />
+              <img src='./3.webp' alt="" />
             </div>
             <div className="about__text">
               <h3>
@@ -144,7 +144,7 @@ export const Home = () => {
               </h2>
               <img
                 className="contact__img"
-                src="Antonio-Lauro-Web/2.webp"
+                src="./2.webp"
                 alt=""
               />
             </div>

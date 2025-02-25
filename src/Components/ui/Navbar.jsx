@@ -31,7 +31,7 @@ export const Navbar = () => {
           </button> */}
         </div>
         <div className="navbar__links">
-          <NavLink className='navbar__link' to="/">Inicio</NavLink>
+          <NavLink className='navbar__link' to="/Antonio-Lauro-Web">Inicio</NavLink>
           <NavLink className='navbar__link' to="/About">Nosotros</NavLink>
           <NavLink className='navbar__link' to="/News">Noticias</NavLink>
           {/* <NavLink className='navbar__link' to="/Contact">Contacto</NavLink> */}
