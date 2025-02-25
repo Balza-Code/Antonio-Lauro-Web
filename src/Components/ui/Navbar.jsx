@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import lauro from '../imgs/Lauro.png';
 import { HamburguerIcon } from "./HamburguerIcon";
 
 export const Navbar = () => {
@@ -8,7 +9,7 @@ export const Navbar = () => {
       <nav className="navbar">
         <div className="navbar__logo">
           <a className="navbar__title">
-            <img src="../src/assets\Lauro.png" className="navbar__img"/>
+            <img src={lauro} className="navbar__img"/>
             <span className="navbar__name">E.B.N. Antonio Lauro</span>
           </a>
           {/* <button>
@@ -31,7 +32,7 @@ export const Navbar = () => {
           </button> */}
         </div>
         <div className="navbar__links">
-          <NavLink className='navbar__link' to="/Antonio-Lauro-Web">Inicio</NavLink>
+          <NavLink className='navbar__link' to="/Antonio-Lauro-Web/">Inicio</NavLink>
           <NavLink className='navbar__link' to="/About">Nosotros</NavLink>
           <NavLink className='navbar__link' to="/News">Noticias</NavLink>
           {/* <NavLink className='navbar__link' to="/Contact">Contacto</NavLink> */}

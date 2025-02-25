@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export const Menu = () => {
   return (
     <div>
@@ -14,7 +15,6 @@ export const Menu = () => {
         stroke-linecap="round"
         stroke-linejoin="round"
         class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2"
-        
       >
         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
         <path d="M4 6l16 0" />

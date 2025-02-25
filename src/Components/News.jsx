@@ -1,4 +1,5 @@
 import React from "react";
+import escuela2 from './imgs/escuela.jpeg';
 
 export const News = () => {
   return (
@@ -14,7 +15,7 @@ export const News = () => {
         </div>
 
         <article className="news__content--page">
-          <img src="Antonio-Lauro-Web/escuela.jpeg" alt="" />
+          <img src={escuela2} alt="" />
           <div className="news__text--page">
             <h2>¡Antonio Lauro Completamente renovada!</h2>
             <p>

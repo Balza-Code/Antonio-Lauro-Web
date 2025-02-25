@@ -12,7 +12,7 @@ export const AppRouter = () => {
       <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route  path='/Antonio-Lauro-Web' element={<Home/>} />
+        <Route  path='/Antonio-Lauro-Web/' element={<Home/>} />
         <Route  path='/About' element={<About/>} />
         <Route  path='/News' element={<News/>} />
         

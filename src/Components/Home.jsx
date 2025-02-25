@@ -1,5 +1,10 @@
 import React from "react";
-
+import hero from "./imgs/1.webp";
+import contact from "./imgs/2.webp";
+import happy from "./imgs/3.webp";
+import book from "./imgs/book.png";
+import students from "./imgs/students.png";
+import teaching from "./imgs/teaching.png";
 
 
 export const Home = () => {
@@ -21,7 +26,7 @@ export const Home = () => {
                 Donde la educación y el crecimiento personal van de la mano.
               </span>
             </div>
-            <img className="hero__img" src="./1.webp" alt="" />
+            <img className="hero__img" src={hero} alt="" />
           </div>
         </div>
       </section>
@@ -57,7 +62,7 @@ export const Home = () => {
           <div className="learn__container">
             <div className="learn__content">
               <div className="learn__img">
-                <img src="./book.png" alt="" />
+                <img src={book} alt="" />
               </div>
               <p className="learn__text">
                 <h3>Pensamiento Innovador</h3>
@@ -68,7 +73,7 @@ export const Home = () => {
 
             <div className="learn__content">
               <div className="learn__img">
-                <img src="./students.png" alt="" />
+                <img src={students} alt="" />
               </div>
               <p className="learn__text">
                 <h3>Educación Integral</h3>
@@ -79,7 +84,7 @@ export const Home = () => {
 
             <div className="learn__content">
               <div className="learn__img">
-                <img src="./teaching.png" alt="" />
+                <img src={teaching} alt="" />
               </div>
               <p className="learn__text">
                 <h3>Atención Personalizada</h3>
@@ -96,7 +101,7 @@ export const Home = () => {
           <div className="draw5"></div>
           <div className="about__content">
             <div className="about__img">
-              <img src='./3.webp' alt="" />
+              <img src={happy} alt="" />
             </div>
             <div className="about__text">
               <h3>
@@ -144,7 +149,7 @@ export const Home = () => {
               </h2>
               <img
                 className="contact__img"
-                src="./2.webp"
+                src={contact}
                 alt=""
               />
             </div>

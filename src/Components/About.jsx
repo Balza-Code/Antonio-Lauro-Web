@@ -1,4 +1,7 @@
 import React from "react";
+import ambicion from './imgs/ambicion.png';
+import escuela from './imgs/escuela.jpg';
+import unidad from './imgs/unidad.avif';
 
 export const About = () => {
   return (
@@ -6,7 +9,7 @@ export const About = () => {
       <section className="about-us">
         <div className="container">
           <div className="about-us__img">
-            <img src="Antonio-Lauro-Web/escuela.jpg" alt="" />
+            <img src={escuela} alt="" />
           </div>
 
 
@@ -25,7 +28,7 @@ export const About = () => {
             </p>
             </div>
             <div className="intro__img">
-              <img src="Antonio-Lauro-Web/ambicion.png" alt="" />
+              <img src={ambicion} alt="" />
             </div>
           </article>
 
@@ -68,7 +71,7 @@ export const About = () => {
 
           <div className="final__container">
             <div className="final__img">
-              <img src="Antonio-Lauro-Web/unidad.avif" alt="" />
+              <img src={unidad} alt="" />
             </div>
             <article className="about-us__final">
               <h2>Una Familia Educativa</h2>

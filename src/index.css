@@ -37,7 +37,7 @@ img {
 body {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   margin: 0;
-  
+
   width: 100%;
   min-width: 320px;
   min-height: 100vh;
@@ -702,10 +702,19 @@ button:focus-visible {
     width: 100%;
   }
 }
-
-.email{
+.contact__email {
   text-align: center;
-  font-size: 5rem;
+}
+.email {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .email {
+    font-size: 2rem;
+  }
 }
 
 /* About-Us */
@@ -726,14 +735,14 @@ button:focus-visible {
 }
 .about-us__intro {
   display: flex;
-  
+
   font-size: 1.7rem;
   margin: 30rem 0;
   justify-content: space-between;
   align-items: center;
 }
 
-.about-us__intro h2{
+.about-us__intro h2 {
   font-size: 4rem;
 }
 
@@ -745,8 +754,6 @@ button:focus-visible {
 .intro__text {
   width: 50%;
 }
-
-
 
 @media (max-width: 768px) {
   .intro__text {
@@ -788,11 +795,11 @@ button:focus-visible {
   list-style: none;
 }
 
-.about-us__mision{
+.about-us__mision {
   width: 50%;
 }
 
-.about-us__mision h2{
+.about-us__mision h2 {
   font-size: 5rem;
 }
 
@@ -861,6 +868,13 @@ button:focus-visible {
   border-radius: 1rem;
   margin: 5rem auto;
   width: 70%;
+}
+
+@media (max-width: 768px) {
+  .news__content--page {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
 }
 
 .news__content--page img {

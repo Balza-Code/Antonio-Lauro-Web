@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import { Menu } from "../icons/Menu";
 
 
+
 export const HamburguerIcon = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -16,7 +17,7 @@ export const HamburguerIcon = () => {
       <Menu />
       <nav className={`menu ${isOpen ? "open" : ""}`}>
         
-          <NavLink className="navbar__link--mobile" to="/">
+          <NavLink className="navbar__link--mobile" to="/Antonio-Lauro-Web/">
             Inicio
           </NavLink>
           <NavLink className="navbar__link--mobile" to="/About">
